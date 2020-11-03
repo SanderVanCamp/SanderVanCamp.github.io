@@ -1,0 +1,55 @@
+uuid: 05f56bce-a70c-4679-bf54-631407ed8f79
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.image
+    - views.view.media_entity_browser
+  module:
+    - dropzonejs_eb_widget
+    - media
+    - views
+_core:
+  default_config_hash: VOi0Ua3BAuJlwzee4EWw-XHxybYY-IqVBetnROZff_I
+name: media_entity_browser_modal
+label: 'Media Entity Browser'
+display: modal
+display_configuration:
+  width: ''
+  height: ''
+  link_text: 'Select media'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  fc729026-c85f-4561-acd5-38d4082b69fb:
+    settings:
+      view: media_entity_browser
+      view_display: media_browser_all
+      submit_text: 'Select media'
+      auto_select: false
+    uuid: fc729026-c85f-4561-acd5-38d4082b69fb
+    weight: -8
+    label: 'Choose existing media'
+    id: view
+  953db9cf-960b-4332-8cee-ca480883f3ea:
+    settings:
+      form_mode: default
+      media_type: image
+      upload_location: 'public://[date:custom:Y]-[date:custom:m]'
+      dropzone_description: 'Drop files here to upload them'
+      max_filesize: 32M
+      extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'
+      clientside_resize: false
+      resize_width: null
+      resize_height: null
+      resize_quality: !!float 1
+      resize_method: contain
+      thumbnail_method: contain
+      submit_text: 'Select media'
+    uuid: 953db9cf-960b-4332-8cee-ca480883f3ea
+    weight: -10
+    label: 'Upload new media'
+    id: dropzonejs_media_entity_inline_entity_form

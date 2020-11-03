@@ -1,0 +1,22 @@
+# core: 8.x
+type: theme
+
+name: 'MRSHNDR'
+description: 'Hello'
+# version: 8.x-6.x-dev
+
+regions:
+  header: 'Header'
+  pre_content: 'Pre-content'
+  content: 'Content'
+  footer: 'Footer'
+
+
+ckeditor_stylesheets:
+  - css/ckeditor.css
+
+version: '8.x'
+core_version_requirement: ^8 || ^9
+project: 'MRSHNDR'
+datestamp: 1556119385
+base theme: false

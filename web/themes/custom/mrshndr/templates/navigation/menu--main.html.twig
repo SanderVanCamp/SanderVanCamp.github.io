@@ -1,0 +1,32 @@
+<nav class="navbar" id="site-nav">
+  <a class="logo" href="/">Sander</a>
+  <div class="wrapper overlay" >
+    <!-- Button to close the overlay navigation -->
+    <ul class="menu overlay-content">
+      {% for item in items %}
+        {% set classes = [
+          'menu-item',
+          item.is_expanded ? 'menu-item--expanded',
+          item.is_collapsed ? 'menu-item--collapsed',
+          item.in_active_trail ? 'menu-item--active-trail',
+        ] %}
+        <li{{ item.attributes.addClass(classes, 'menu-item') }}>
+          {{ link(item.title, item.url) }}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <label for="nav" class="nav-toggle" onclick="toggleNav()">
+
+  </label>
+</nav>
+
+
+<script>
+    function toggleNav() {
+        document.getElementById('site-nav').classList.toggle('expanded');
+    }
+</script>
+
+
+{{ attach_library('mrshndr/menu--main') }}

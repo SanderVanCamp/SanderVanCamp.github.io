@@ -1,0 +1,44 @@
+[
+  [
+    "drupal/simple-text",
+    {
+      "placeholder": "Insert title",
+      "tag": "h1",
+      "mappingFields": [
+        {
+          "field": "title"
+        }
+      ]
+    }
+  ],
+  [
+    "drupal/simple-text",
+    {
+      "placeholder": "Summary",
+      "tag": "strong",
+      "mappingFields": [
+        {
+          "field": "body"
+        }
+      ]
+    }
+  ],
+  [
+    "drupalmedia/drupal-media-entity",
+    {
+      "mappingFields": [
+        {
+          "field": "field_media_image",
+          "property": "target_id",
+          "attribute": "mediaEntityIds"
+        }
+      ]
+    }
+  ],
+  [
+    "drupal/section",
+    {
+      "placeholder": "Insert content"
+    }
+  ]
+]

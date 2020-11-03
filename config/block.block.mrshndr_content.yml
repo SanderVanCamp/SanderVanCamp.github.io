@@ -1,0 +1,22 @@
+uuid: fc950992-fa71-4573-a876-184c1eb3f322
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mrshndr
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: mrshndr_content
+theme: mrshndr
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

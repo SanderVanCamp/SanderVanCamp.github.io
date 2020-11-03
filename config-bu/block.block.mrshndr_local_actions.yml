@@ -1,0 +1,20 @@
+uuid: fb161e46-4d8a-498c-9fe3-229e6a47c288
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mrshndr
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: mrshndr_local_actions
+theme: mrshndr
+region: content
+weight: 0
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "1ace3664-9b1f-44f7-8a55-6ed11f277114"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "c78a8257-a567-407c-a657-1006c8b1f811"
+        }
+    ],
+    "filename": [
+        {
+            "value": "8lp1Md2rY607omWNY_2nEHo_LDD2mX4tB7je4DutrucyfKcJjuO_ZlKtXjduavkIIcM1Z7HQo-GLSnAwZprMlXd6=s600.jpeg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/cq1SB1zpoIhuREu1AMFR5QaJjTbcrMU6IRmhO4Y77eifFWpcDM.jpeg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 40028
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-22T15:53:15+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-22T15:53:15+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

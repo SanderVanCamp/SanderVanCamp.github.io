@@ -1,0 +1,35 @@
+@import "../colors";
+
+input[type='submit'], .button {
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  background: $color-black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 0 !important;
+  font-size: 1rem;
+  border: 0;
+  font-family: inherit;
+  transition: opacity 0.2s linear;
+  cursor: pointer;
+  margin-bottom: 15px;
+
+  &:hover {
+    opacity: 0.7;
+    transition: opacity 0.2s linear;
+
+  }
+}
+
+.button.button--primary {
+  background: $color-primary;
+}
+
+.button.remove-button {
+  background: $color-danger;
+  color: white;
+}

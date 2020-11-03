@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "457312c1-3cb2-4dc1-88b8-ff5c954eaf72"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "c78a8257-a567-407c-a657-1006c8b1f811"
+        }
+    ],
+    "filename": [
+        {
+            "value": "Tdu7yJQB_400x400.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/duY77LhXuM7L4w3ij7nspMvZ6SctPKSOD34tOaaImmCvQHZels.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 17795
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-23T08:15:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-23T08:15:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

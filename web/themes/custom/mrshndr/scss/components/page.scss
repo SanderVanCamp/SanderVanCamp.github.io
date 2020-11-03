@@ -1,0 +1,104 @@
+@import "../colors";
+
+
+html {
+  width: 100%;
+  text-align: center;
+  color: $color-black;
+
+}
+
+.visually-hidden {
+  display: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0 1rem;
+  max-width: 60rem;
+  text-align: left;
+  margin: 0px auto;
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 16px;
+
+  a {
+    color: $color-black;
+  }
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+}
+
+main {
+  padding: 1rem 2rem;
+  background: $color-white;
+  position: relative;
+  z-index: 1;
+}
+
+.layout_row {
+  margin-left: -15px;
+  margin-right: -15px;
+  display: flex;
+  flex-wrap: unset;
+
+  .block-layout-builder, .layout__region {
+    padding-left: 15px;
+    padding-right: 15px;
+
+  }
+}
+
+
+.hidden {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    padding: 0;
+  }
+
+  main {
+    padding: 1rem;
+  }
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+
+div[data-entity-type='media'] {
+
+  @media (min-width: 576px) {
+    max-width: 50%;
+    &.align-left {
+      margin-right: 1rem;
+    }
+    &.align-right {
+      margin-left: 1rem;
+    }
+  }
+  @media (min-width: 992px) {
+    max-width: 33%;
+  }
+
+  img {
+    display: block;
+  }
+
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}

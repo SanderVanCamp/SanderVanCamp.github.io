@@ -1,0 +1,22 @@
+uuid: 99e1a421-3a2e-4c6e-b9e3-2ab3377a0c20
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.image
+    - field.field.block_content.image.field_image
+  module:
+    - automatic_images
+id: block_content.image.default
+targetEntityType: block_content
+bundle: image
+mode: default
+content:
+  field_image:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: auto_scale_responsive_media_image
+    region: content
+hidden: {  }

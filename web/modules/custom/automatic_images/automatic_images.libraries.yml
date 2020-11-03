@@ -1,0 +1,18 @@
+lazysizes:
+  version: 1.x
+  js:
+    js/ls.blur-up.min.js: { }
+    js/lazysizes.min.js: { }
+  css:
+    component:
+      css/lazysizes.css: {}
+
+lightbox:
+  version: VERSION
+  js:
+    js/jquery.magnific-popup.min.js: { }
+  css:
+    component:
+      css/magnific-popup.css: {}
+  dependencies:
+    - core/jquery

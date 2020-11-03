@@ -1,0 +1,28 @@
+@import "../colors";
+//@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@300;400;700&display=swap');
+@import "./node_modules/rfs/scss.scss";
+
+
+.paragraph {
+  font-family: 'Roboto', sans-serif;
+
+  a {
+    color: $color-black;
+  }
+}
+
+
+h1 {
+  @include font-size(4rem);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+p:last-child {
+  margin-bottom: 1em;
+}

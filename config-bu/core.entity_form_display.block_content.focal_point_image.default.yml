@@ -1,0 +1,31 @@
+uuid: d1c4465a-a8d0-49f2-aa5d-26ea5649b480
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.focal_point_image
+    - field.field.block_content.focal_point_image.field_image
+id: block_content.focal_point_image.default
+targetEntityType: block_content
+bundle: focal_point_image
+mode: default
+content:
+  field_image:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,1 @@
+.column,.paragraph--type--gallery>div>div{float:left;width:33.33%;padding:5px}.paragraph--type--gallery,.row::after{content:"";clear:both;display:table}@media screen and (max-width:500px){.column{width:100%}}

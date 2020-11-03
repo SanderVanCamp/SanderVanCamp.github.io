@@ -1,0 +1,6 @@
+name: 'automatic_images'
+type: module
+description: 'Module to automatically create srcset for images with lazysizes. Option to add lightbox.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: custom

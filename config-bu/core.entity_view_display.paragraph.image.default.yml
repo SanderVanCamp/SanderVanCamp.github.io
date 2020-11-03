@@ -1,0 +1,25 @@
+uuid: 2cb97eab-046a-4122-8b2b-5c8d16164701
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.image.field_image
+    - paragraphs.paragraphs_type.image
+  module:
+    - automatic_images
+id: paragraph.image.default
+targetEntityType: paragraph
+bundle: image
+mode: default
+content:
+  field_image:
+    type: auto_responsive_media_image
+    weight: 0
+    label: hidden
+    settings:
+      width: '2'
+      height: '1'
+      crop_type: focal_point_scale_and_crop
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,57 @@
+<?php
+
+/**
+ * @file
+ * Contains automatic_images.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\image\Entity\ImageStyle;
+
+
+function automatic_images_theme($existing, $type, $theme, $path)
+{
+
+  return
+    [
+      'auto_responsive_image' => [
+        'variables' => [
+          'srcset' => null,
+          'alt' => null,
+          'placeholder' => null,
+          'default' => null,
+          'uri' => null,
+        ]
+      ],
+      'auto_responsive_image_lightbox' => [
+        'variables' => [
+          'srcset' => null,
+          'alt' => null,
+          'placeholder' => null,
+          'default' => null,
+          'uri' => null,
+        ]
+      ],
+      'paragraph__custom' => [
+        'template' => 'paragraph--custom',
+        'base hook' => 'paragraph'
+      ]
+
+    ];
+}
+
+
+function automatic_images_theme_suggestions_paragraph_alter(&$suggestions, $variables)
+{
+  $config = \Drupal::config('system.theme');
+  $suggestions[] = 'paragraph__' . 'custom';
+  $suggestions[] = 'paragraph__' . $config->get('default');
+}
+
+function automatic_images_preprocess_paragraph(&$variables)
+{
+  $config = \Drupal::config('system.theme');
+
+  $variables['active_theme'] = $config->get('default');
+}
+

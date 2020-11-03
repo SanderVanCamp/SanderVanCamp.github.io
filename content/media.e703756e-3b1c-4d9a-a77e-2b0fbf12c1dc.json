@@ -1,0 +1,92 @@
+{
+    "uuid": [
+        {
+            "value": "e703756e-3b1c-4d9a-a77e-2b0fbf12c1dc"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image",
+            "target_type": "media_type",
+            "target_uuid": "62cc17d9-4777-4ea4-964a-4ea63e7893a5"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-11-02T13:30:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "c78a8257-a567-407c-a657-1006c8b1f811"
+        }
+    ],
+    "name": [
+        {
+            "value": "juniperphoton-E0bj4Q53_Dw-unsplash.jpg"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "Bamboo Forest",
+            "title": null,
+            "width": 4769,
+            "height": 3255,
+            "target_type": "file",
+            "target_uuid": "c0e89921-cefe-424f-b3b9-81b9ff568a24"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-31T11:05:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-31T11:05:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en"
+        }
+    ],
+    "field_media_image": [
+        {
+            "alt": "Bamboo Forest",
+            "title": "",
+            "width": 4769,
+            "height": 3255,
+            "target_type": "file",
+            "target_uuid": "c0e89921-cefe-424f-b3b9-81b9ff568a24"
+        }
+    ]
+}

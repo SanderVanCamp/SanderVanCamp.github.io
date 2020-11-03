@@ -1,0 +1,22 @@
+uuid: 15299862-965c-4406-a862-2d9316b9cf1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.focal_point_image
+    - field.field.block_content.focal_point_image.field_image
+id: block_content.focal_point_image.default
+targetEntityType: block_content
+bundle: focal_point_image
+mode: default
+content:
+  field_image:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden: {  }

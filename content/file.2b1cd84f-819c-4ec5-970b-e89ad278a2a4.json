@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "2b1cd84f-819c-4ec5-970b-e89ad278a2a4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "c78a8257-a567-407c-a657-1006c8b1f811"
+        }
+    ],
+    "filename": [
+        {
+            "value": "tianshu-liu-sbk40fdkbag-unsplash.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-11\/tianshu-liu-sbk40fdkbag-unsplash.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 2720323
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-11-01T09:42:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-11-01T09:43:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

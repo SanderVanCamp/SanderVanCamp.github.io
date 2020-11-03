@@ -1,0 +1,92 @@
+uuid: 9176a1eb-e38a-44cb-8f84-dbbdbeec8baa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - field.field.node.page.field_image
+    - field.field.node.page.field_media_image
+    - field.field.node.page.field_paragraphs
+    - field.field.node.page.field_summary
+    - node.type.page
+  module:
+    - image
+    - layout_builder
+    - layout_builder_restrictions
+    - layout_paragraphs
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+  layout_builder_restrictions:
+    allowed_block_categories: {  }
+    entity_view_mode_restriction:
+      whitelisted_blocks:
+        'Content fields': {  }
+        'Custom blocks': {  }
+        Forms: {  }
+        'Lists (Views)': {  }
+        Menus: {  }
+        System: {  }
+        User: {  }
+        core: {  }
+      blacklisted_blocks:
+        'Custom block types': {  }
+      allowed_layouts: {  }
+_core:
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_media_image:
+    type: entity_reference_entity_view
+    weight: 3
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_paragraphs:
+    type: layout_paragraphs
+    weight: 5
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_summary:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  layout_builder__layout: true

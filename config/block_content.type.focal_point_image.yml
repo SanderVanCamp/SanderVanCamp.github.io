@@ -1,0 +1,8 @@
+uuid: 6f173ba0-a806-4bc5-b6c7-65229ec9b1ad
+langcode: en
+status: true
+dependencies: {  }
+id: focal_point_image
+label: 'Focal Point Image'
+revision: 0
+description: ''

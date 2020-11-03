@@ -1,0 +1,56 @@
+page:
+  css:
+    theme:
+      css/typography.css: {}
+      css/page.css: {}
+
+typography:
+  css:
+    theme:
+      css/typography.css: {}
+
+paragraph:
+  css:
+    theme:
+      css/paragraph.css: {}
+
+menu--main:
+  css:
+    theme:
+      css/menu--main.css: {}
+
+field--field-media-images:
+  css:
+    theme:
+      css/field--field-media-images.css: {}
+
+block--type--header-image:
+  css:
+    theme:
+      css/block--type--header-image.css: {}
+
+menu-local-tasks:
+  css:
+    theme:
+      css/menu-local-tasks.css: {}
+
+form-element:
+  css:
+    theme:
+      css/form-element.css: {}
+
+input--submit:
+  css:
+    theme:
+      css/input--submit.css: {}
+
+node--teaser:
+  css:
+    theme:
+      css/node--teaser.css: {}
+
+layout-editor:
+  css:
+    theme:
+      css/layout-editor.css: {}
+

@@ -1,0 +1,25 @@
+.ui-widget-header.ui-dialog-titlebar[aria-describedby='layout-builder-modal'], .ui-dialog-titlebar-close {
+  border-radius: 0 !important;
+  background: white !important;
+  border: none !important;
+}
+
+.ui-widget-header {
+  @extend h3 !optional;
+
+}
+
+
+* {
+  text-shadow:  none !important;
+}
+
+.entities-list .item-container > img, .entities-list .item-container > input {
+  float: left !important;
+  margin-left: 15px;
+}
+
+strong {
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}

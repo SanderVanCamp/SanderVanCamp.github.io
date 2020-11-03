@@ -1,0 +1,68 @@
+{
+    "uid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c78a8257-a567-407c-a657-1006c8b1f811"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "preferred_langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "preferred_admin_langcode": [],
+    "name": [
+        {
+            "value": "sandervancamp@outlook.com"
+        }
+    ],
+    "mail": [
+        {
+            "value": "sandervancamp@outlook.com"
+        }
+    ],
+    "timezone": [
+        {
+            "value": "Europe\/Brussels"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-19T19:19:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-11-02T13:57:19+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "roles": [
+        {
+            "target_id": "administrator",
+            "target_type": "user_role",
+            "target_uuid": "17c9042c-245e-4e44-a4a8-be81eebe5ee2"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "user_picture": []
+}

@@ -1,0 +1,57 @@
+{
+    "uuid": [
+        {
+            "value": "656cc9ab-cb64-49d7-a256-56fbab0978f3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "quote",
+            "target_type": "paragraphs_type",
+            "target_uuid": "65adf4f5-d744-4b3f-80fd-652b4a636e37"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-09-27T20:16:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": {
+                "layout_paragraphs": {
+                    "region": "",
+                    "parent_uuid": "",
+                    "layout": "",
+                    "config": []
+                }
+            }
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "field_quote": [
+        {
+            "value": "Cascade combineert de voordelen van de stad met een groene omgeving. Zo ligt de pittoreske Molse Nete op wandelafstand van project \u2018Cascade\u2019."
+        }
+    ]
+}

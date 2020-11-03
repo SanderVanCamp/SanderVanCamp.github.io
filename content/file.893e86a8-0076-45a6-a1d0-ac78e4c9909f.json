@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "893e86a8-0076-45a6-a1d0-ac78e4c9909f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "c78a8257-a567-407c-a657-1006c8b1f811"
+        }
+    ],
+    "filename": [
+        {
+            "value": "yoav-aziz-tkcd-iwc4gi-unsplash.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-11\/yoav-aziz-tkcd-iwc4gi-unsplash.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 1729532
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-11-01T09:42:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-11-01T09:43:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

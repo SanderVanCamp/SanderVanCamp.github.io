@@ -1,0 +1,4 @@
+services:
+  automatic_images.image_cropper:
+    class: Drupal\automatic_images\ImageCropper
+    arguments: ['@image.factory']

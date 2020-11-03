@@ -1,0 +1,24 @@
+<?php
+
+use Drupal\image\Entity\ImageStyle;
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter() for form templates.
+ * @param array $suggestions
+ * @param array $variables
+ */
+function mrshndr_theme_suggestions_block_alter(array &$suggestions, array $variables)
+{
+  // Block suggestions for custom block bundles.
+  if (isset($variables['elements']['content']['#block_content'])) {
+    array_splice($suggestions, 1, 0, 'block__type__' . $variables['elements']['content']['#block_content']->bundle());
+  }
+}
+
+function mrshndr_page_attachments_alter(array &$attachments)
+{
+  if (in_array('system/base', $attachments['#attached']['library'])) {
+    $index = array_search('system/base', $attachments['#attached']['library']);
+    unset($attachments['#attached']['library'][$index]);
+  }
+}

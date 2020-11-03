@@ -1,0 +1,14 @@
+uuid: 60c8eb35-53a7-4264-b30b-b716e88fa431
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - sandervancamp@outlook.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
