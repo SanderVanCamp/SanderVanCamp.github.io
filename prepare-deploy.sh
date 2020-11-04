@@ -4,3 +4,6 @@
 ./vendor/bin/drush tome:static --uri=https://sandervancamp.github.io
 
 cp -R web/sites/default/files docs/sites/default/
+
+touch docs/CNAME
+echo "sandervancamp.be" >> docs/CNAME
