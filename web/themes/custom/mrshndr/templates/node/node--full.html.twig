@@ -6,17 +6,12 @@
   not node.isPublished() ? 'node--unpublished',
   view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
 ] %}
-<article{{ attributes.addClass(classes) }}>
+<article{{ attributes.addClass(classes) }} {{ node.bundle == 'article' ? ' itemscope itemtype="https://schema.org/Article"' : '' }}>
   {{ title_prefix }}
-  {% if label and not page %}
-    <h2{{ title_attributes }}>
-      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
-    </h2>
-  {% elseif  label and page %}
-    <h1{{ title_attributes }}>
-      {{ label }}
-    </h1>
-  {% endif %}
+
+  <h1{{ title_attributes }} itemprop="name">
+    {{ label }}
+  </h1>
   {{ title_suffix }}
 
   {% if display_submitted %}
@@ -30,11 +25,10 @@
   {% endif %}
 
   <div{{ content_attributes.addClass('node__content') }}>
-    <strong>
-      {{ content.field_summary }}
+    <strong itemprop="description" class="node__summary">
+      {{ content.body }}
     </strong>
     {{ content.field_media_image }}
-    {{ content | without('field_summary','field_media_image') }}
+    {{ content | without('body','field_media_image') }}
   </div>
-
 </article>

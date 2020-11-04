@@ -1,0 +1,54 @@
+{
+    "uuid": [
+        {
+            "value": "d5dc1ce3-ab5a-4e31-89a2-57071c5ccc95"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "text",
+            "target_type": "paragraphs_type",
+            "target_uuid": "77696c35-ea90-4800-8fe7-650948a16b58"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-11-04T18:17:10+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": {
+                "layout_paragraphs": {
+                    "region": "",
+                    "parent_uuid": "",
+                    "layout": "",
+                    "config": []
+                }
+            }
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "field_body": [
+        {
+            "value": "<h2>How did I do it<\/h2>\r\n\r\n<p>But how did I actually built this site? What modules did I use, what custom code did I write, where am I hosting my code? We'll split this up in different sections.<\/p>\r\n\r\n<h3>Custom code<\/h3>\r\n\r\n<p><strong>Automatic responsive images with lazy-loading<\/strong><\/p>\r\n\r\n<p>Drupal 9 has a very powerful media managing system out of the box. However, I find that you have to configure too much to get things working. You can read more about this in my blog. Long story short, I decided to build a custom module where you only have to configure the ratio in a fieldformmater and that's it. You can read the detailed working of this module in the same blog.<\/p>\r\n\r\n<p><strong>Component based css<\/strong><\/p>\r\n",
+            "format": "basic_html"
+        }
+    ]
+}

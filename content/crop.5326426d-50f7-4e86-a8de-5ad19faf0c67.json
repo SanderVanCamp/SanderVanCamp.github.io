@@ -1,0 +1,69 @@
+{
+    "uuid": [
+        {
+            "value": "5326426d-50f7-4e86-a8de-5ad19faf0c67"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "focal_point",
+            "target_type": "crop_type",
+            "target_uuid": "80beb49b-b009-4a90-914b-09e225efc933"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "entity_id": [
+        {
+            "value": 50
+        }
+    ],
+    "entity_type": [
+        {
+            "value": "file"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-11\/8-coderwd.jpg"
+        }
+    ],
+    "height": [],
+    "width": [],
+    "x": [
+        {
+            "value": 3008
+        }
+    ],
+    "y": [
+        {
+            "value": 2000
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-11-04T18:08:53+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "c78a8257-a567-407c-a657-1006c8b1f811"
+        }
+    ],
+    "revision_log": [],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ]
+}

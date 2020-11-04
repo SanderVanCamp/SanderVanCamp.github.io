@@ -1,0 +1,96 @@
+{
+    "uuid": [
+        {
+            "value": "67f2dbfd-bfd2-4114-b219-30e20b9ccd1a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page",
+            "target_type": "node_type",
+            "target_uuid": "ca04a458-6d02-4dc0-a8d2-bb58a14eeb3a"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-11-04T18:25:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "c78a8257-a567-407c-a657-1006c8b1f811"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "c78a8257-a567-407c-a657-1006c8b1f811"
+        }
+    ],
+    "title": [
+        {
+            "value": "About me"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-11-04T17:49:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-11-04T18:25:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "path": [
+        {
+            "alias": "\/about-me",
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Hey, my name is Sander. I'm a passionate developer always on the lookout to improve my skills and learn new things. This is why I started this website.&nbsp;<\/p>\r\n",
+            "format": "basic_html",
+            "summary": ""
+        }
+    ],
+    "field_paragraphs": [
+        {
+            "target_type": "paragraph",
+            "target_uuid": "e8114986-f9f3-4e43-975a-8c084d7bada1"
+        }
+    ]
+}

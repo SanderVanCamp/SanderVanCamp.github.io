@@ -1,0 +1,54 @@
+{
+    "uuid": [
+        {
+            "value": "da2b9b81-0f73-4f84-8695-89562707d72f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "text",
+            "target_type": "paragraphs_type",
+            "target_uuid": "77696c35-ea90-4800-8fe7-650948a16b58"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-11-04T18:10:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": {
+                "layout_paragraphs": {
+                    "region": "",
+                    "parent_uuid": "",
+                    "layout": "",
+                    "config": []
+                }
+            }
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "field_body": [
+        {
+            "value": "<h2>Learning and experimenting<\/h2>\r\n\r\n<p>I still remember being overwhelmed with new terminology and concepts when first starting out with Drupal. It took me a few weeks to figure out what I the hell I was actually doing. Actually, I still don't know exactly what I am doing. And this is why I decided to build this site in Drupal. Drupal 9 to be precise. While I feel very confident in using Drupal to build all kinds of crazy websites, there are still so much more features that I haven't got to use. I feel like I only just scratched the surface of what could be done with a powerful CMS like Drupal. My personal site gives me the perfect opportunity the experiment with new contrib modules, custom code and fancy ideas without breaking any off my clients live production websites. And that's what this site is all about. Learning new stuff while experimenting, breaking things and fixing things back again.&nbsp;<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ]
+}

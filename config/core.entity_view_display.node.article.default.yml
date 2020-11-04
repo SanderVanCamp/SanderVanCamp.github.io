@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.article.body
-    - field.field.node.article.comment
     - field.field.node.article.field_image
     - field.field.node.article.field_media_image
     - field.field.node.article.field_summary
@@ -184,5 +183,4 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
-  comment: true
   layout_builder__layout: true

@@ -85,8 +85,6 @@
         }
     ],
     "body": [],
-    "field_image": [],
-    "field_media_image": [],
     "field_paragraphs": [
         {
             "target_type": "paragraph",
@@ -160,6 +158,5 @@
             "target_type": "paragraph",
             "target_uuid": "4847e3a2-74e3-4c00-b4ad-485a071b48b3"
         }
-    ],
-    "field_summary": []
+    ]
 }

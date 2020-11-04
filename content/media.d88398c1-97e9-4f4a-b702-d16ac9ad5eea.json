@@ -47,7 +47,7 @@
             "width": 4608,
             "height": 3456,
             "target_type": "file",
-            "target_uuid": "f548abe1-1fec-463b-8682-aed2f69ec74c"
+            "target_uuid": "e6eccd9d-ef7c-4da3-ac32-211aaf84a3a2"
         }
     ],
     "created": [
@@ -58,7 +58,7 @@
     ],
     "changed": [
         {
-            "value": "2020-08-22T09:40:49+00:00",
+            "value": "2020-11-04T17:53:43+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -80,14 +80,5 @@
             "pathauto": 0
         }
     ],
-    "field_media_image": [
-        {
-            "alt": null,
-            "title": null,
-            "width": 4608,
-            "height": 3456,
-            "target_type": "file",
-            "target_uuid": "f548abe1-1fec-463b-8682-aed2f69ec74c"
-        }
-    ]
+    "field_media_image": []
 }
