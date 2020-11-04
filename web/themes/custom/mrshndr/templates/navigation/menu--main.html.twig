@@ -1,8 +1,7 @@
 <nav class="navbar" id="site-nav">
-  <a class="logo" href="/">Sander Van Camp</a>
-  <div class="wrapper overlay" >
-    <!-- Button to close the overlay navigation -->
-    <ul class="menu overlay-content">
+  <a class="logo" href="/" title="home" rel="home" hreflang="en">Sander Van Camp</a>
+  <div class="wrapper overlay">
+    <ul class="menu overlay-content" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
       {% for item in items %}
         {% set classes = [
           'menu-item',
@@ -10,8 +9,8 @@
           item.is_collapsed ? 'menu-item--collapsed',
           item.in_active_trail ? 'menu-item--active-trail',
         ] %}
-        <li{{ item.attributes.addClass(classes, 'menu-item') }}>
-          {{ link(item.title, item.url) }}
+        <li{{ item.attributes.addClass(classes, 'menu-item') }} itemprop="name">
+          {{ link(item.title, item.url, { 'itemprop':['url'] }) }}
         </li>
       {% endfor %}
     </ul>

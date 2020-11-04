@@ -19,15 +19,22 @@
 
     <css-placeholder token="{{ placeholder_token|raw }}">
       <js-placeholder token="{{ placeholder_token|raw }}">
+
+
+        <script type="application/ld+json">
+          {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Sander Van Camp",
+            "url": "https://sandervancamp.be/"
+          }
+        </script>
         </head>
 <body{{ attributes }} itemscope itemtype="https://schema.org/WebPage">
 {#
   Keyboard navigation/accessibility link to main content section in
   page.html.twig.
 #}
-<a href="#main-content" class="visually-hidden focusable">
-  {{ 'Skip to main content'|t }}
-</a>
 {{ page_top }}
 {{ page }}
 {{ page_bottom }}

@@ -33,7 +33,7 @@ header {
   z-index: 4;
 }
 
-main {
+main, footer {
   padding: 1rem 2rem;
   background: $color-white;
   position: relative;
@@ -69,11 +69,20 @@ main {
 
 img {
   max-width: 100%;
-  width: 100%;
   height: auto;
 }
 
 
 .node__summary {
   font-weight: 600;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer a {
+  text-decoration: none;
 }

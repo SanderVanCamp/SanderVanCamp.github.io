@@ -1,134 +1,39 @@
-<div id="page-wrapper" class="bg-light">
-  <div id="page" class="pt-5">
-    <header id="header" class="header container" role="banner" aria-label="{{ 'Site header'|t }}">
-      {% block head %}
-        {% if page.secondary_menu or page.top_header or page.top_header_form %}
-          <nav{{ navbar_top_attributes }}>
-            {% if container_navbar %}
-            <div class="container">
-              {% endif %}
-              {{ page.secondary_menu }}
-              {{ page.top_header }}
-              {% if page.top_header_form %}
-                <div class="form-inline navbar-form float-right">
-                  {{ page.top_header_form }}
-                </div>
-              {% endif %}
-              {% if container_navbar %}
-            </div>
-            {% endif %}
-          </nav>
-        {% endif %}
-        <nav{{ navbar_attributes.addClass('py-4') }}>
-          {% if container_navbar %}
-          <div class="container">
-            {% endif %}
-            {{ page.header }}
-            {% if page.primary_menu or page.header_form %}
-              <button aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"
-                      class="navbar-toggler navbar-toggler-right border-0 navbar-toggler collapsed"
-                      data-target="#CollapsingNavbar" data-toggle="collapse" type="button">
-                <div id="nav-icon">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-              </button>
-              <div class="collapse navbar-collapse" id="CollapsingNavbar">
-                {{ page.primary_menu }}
-                {% if page.header_form %}
-                  <div class="form-inline navbar-form float-right">
-                    {{ page.header_form }}
-                  </div>
-                {% endif %}
-              </div>
-            {% endif %}
-            {% if sidebar_collapse %}
-              <button aria-controls="CollapsingLeft" aria-expanded="false" aria-label="Toggle navigation"
-                      class="navbar-toggler navbar-toggler-left" data-target="#CollapsingLeft" data-toggle="collapse"
-                      type="button"></button>
-            {% endif %}
-            {% if container_navbar %}
-          </div>
-          {% endif %}
-        </nav>
-      {% endblock %}
-    </header>
-    {% if page.highlighted %}
-      <div class="highlighted">
-        <aside class="{{ container }} section clearfix" role="complementary">
-          {{ page.highlighted }}
-        </aside>
-      </div>
-    {% endif %}
-    {% if page.featured_top %}
-      {% block featured %}
-        <div class="featured-top">
-          <aside class="featured-top__inner section {{ container }} clearfix" role="complementary">
-            {{ page.featured_top }}
-          </aside>
-        </div>
-      {% endblock %}
-    {% endif %}
-    <div class="layout-main-wrapper clearfix pt-3" id="main-wrapper">
-      {% block content %}
-        <div id="main" class="{{ container }}">
-          {{ page.pre_content }}
-          <div class="row row-offcanvas row-offcanvas-left clearfix">
-            <main{{ content_attributes }}>
-              <section class="section bg-white">
-                <a id="main-content" tabindex="-1"></a>
-                {{ page.content }}
-              </section>
-            </main>
-            {% if page.sidebar_first %}
-              <div{{ sidebar_first_attributes }}>
-                <aside class="section" role="complementary">
-                  {{ page.sidebar_first }}
-                </aside>
-              </div>
-            {% endif %}
-            {% if page.sidebar_second %}
-              <div{{ sidebar_second_attributes }}>
-                <aside class="section" role="complementary">
-                  {{ page.sidebar_second }}
-                </aside>
-              </div>
-            {% endif %}
-          </div>
-        </div>
-      {% endblock %}
-    </div>
-    {% if page.featured_bottom_first or page.featured_bottom_second or page.featured_bottom_third %}
-      <div class="featured-bottom">
-        <aside class="{{ container }} clearfix" role="complementary">
-          {{ page.featured_bottom_first }}
-          {{ page.featured_bottom_second }}
-          {{ page.featured_bottom_third }}
-        </aside>
-      </div>
-    {% endif %}
-    <footer class="site-footer">
-      {% block footer %}
-        <div class="{{ container }}">
-          {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
-            <div class="site-footer__top clearfix">
-              {{ page.footer_first }}
-              {{ page.footer_second }}
-              {{ page.footer_third }}
-              {{ page.footer_fourth }}
-            </div>
-          {% endif %}
-          {% if page.footer_fifth %}
-            <div class="site-footer__bottom">
-              {{ page.footer_fifth }}
-            </div>
-          {% endif %}
-        </div>
-      {% endblock %}
-    </footer>
+<header id="header" class="header" role="banner" aria-label="{{ 'Site header'|t }}">
+  {% block head %}
+    {{ page.header }}
+  {% endblock %}
+</header>
+{% if page.highlighted %}
+  <div class="highlighted">
+    <aside class="" role="complementary">
+      {{ page.highlighted }}
+    </aside>
   </div>
-</div>
+{% endif %}
+  {% block content %}
+    {{ page.pre_content }}
+    <main{{ content_attributes }}>
+      {{ page.content }}
+    </main>
+  {% endblock %}
+<footer class="footer">
+  {% block footer %}
+    <div class="footer__social-links">
+      <a href="https://www.linkedin.com/in/sandervancamp/" title="LinkedIn Sander Van Camp" target="_blank"
+         rel="external" hreflang="en">
+        <img src="/{{ directory }}/img/iconmonstr-linkedin-4.svg" height="20" width="20"/>
+      </a>
+      <a href="https://www.linkedin.com/in/sandervancamp/" title="LinkedIn Sander Van Camp" target="_blank"
+         rel="external" hreflang="en">
+        <img src="/{{ directory }}/img/iconmonstr-github-1.svg" height="20" width="20"/>
+      </a>
+    </div>
+    <div class="footer__copyright">
+      <small>
+        © Sander Van Camp - {{ 'now'|date('Y') }}
+      </small>
+    </div>
+  {% endblock %}
+</footer>
 
 {{ attach_library('mrshndr/page') }}
