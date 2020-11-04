@@ -79,9 +79,9 @@
     ],
     "path": [
         {
-            "alias": null,
-            "pid": null,
-            "langcode": "en"
+            "alias": "\/testeke",
+            "langcode": "en",
+            "pathauto": 1
         }
     ],
     "body": [],

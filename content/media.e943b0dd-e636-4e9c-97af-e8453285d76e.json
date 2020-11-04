@@ -81,7 +81,8 @@
         {
             "alias": null,
             "pid": null,
-            "langcode": "en"
+            "langcode": "en",
+            "pathauto": 0
         }
     ],
     "field_media_image": [
