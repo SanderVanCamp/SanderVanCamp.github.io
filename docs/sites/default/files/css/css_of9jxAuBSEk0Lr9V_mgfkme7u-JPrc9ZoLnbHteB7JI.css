@@ -1,2 +1,0 @@
-.blur-up{-webkit-filter:blur(2px);filter:blur(2px);opacity:0;-webkit-transition-property:filter,opacity;-moz-transition-property:filter,opacity;-ms-transition-property:filter,opacity;-o-transition-property:filter,opacity;transition-property:filter,opacity;-webkit-transition-duration:300ms;-moz-transition-duration:300ms;-ms-transition-duration:300ms;-o-transition-duration:300ms;transition-duration:300ms;}.blur-up.lazyloaded{-webkit-filter:blur(0);filter:blur(0);opacity:1;}
-.layout--onecol .layout__region{width:100%;}

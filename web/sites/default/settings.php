@@ -783,9 +783,9 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 
-$settings['tome_files_directory'] = '../files';
-$settings['tome_content_directory'] = '../content';
-$settings['tome_static_directory'] = '../docs';
+$settings['tome_files_directory'] = '../.deploy/files';
+$settings['tome_content_directory'] = '../.deploy/content';
+$settings['tome_static_directory'] = '../.deploy/';
 
 $config_directories['sync'] = '../config';
 $settings['config_sync_directory'] =  '../config';
