@@ -1,0 +1,58 @@
+{
+    "uuid": [
+        {
+            "value": "1411fb09-21fe-4155-b3d7-8df380f918bc"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "text",
+            "target_type": "paragraphs_type",
+            "target_uuid": "77696c35-ea90-4800-8fe7-650948a16b58"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-02-16T18:47:53+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": {
+                "layout_paragraphs": {
+                    "region": "",
+                    "parent_uuid": "",
+                    "layout": "",
+                    "config": []
+                }
+            }
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "field_body": [
+        {
+            "value": "<h2>3. In your .lando\/php.ini file<\/h2>\r\n\r\n<p>So what's important in this file? Well, everything basically.&nbsp;<\/p>\r\n\r\n<pre>\r\n<code>xdebug.max_nesting_level = 256\r\nxdebug.show_exception_trace = 0\r\nxdebug.collect_params = 0\r\nxdebug.mode = debug\r\nxdebug.client_host = ${LANDO_HOST_IP}\r\nxdebug.client_port = 9000\r\nxdebug.start_with_request = yes\r\nxdebug.log = \/tmp\/xdebug.log\r\n<\/code>\r\n<\/pre>\r\n",
+            "format": "basic_html"
+        }
+    ]
+}

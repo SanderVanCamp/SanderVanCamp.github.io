@@ -1,5 +1,4 @@
 <?php
-
 // @codingStandardsIgnoreFile
 
 /**
@@ -791,11 +790,11 @@ $settings['tome_static_directory'] = '../docs';
 $config_directories['sync'] = '../config';
 $settings['config_sync_directory'] =  '../config';
 
-//$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
+$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
 //
 $config['system.performance']['css']['preprocess'] = false;
 $config['system.performance']['js']['preprocess'] = false;
-//$settings['cache']['bins']['render'] = 'cache.backend.null';
-//$settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
-//$settings['cache']['bins']['page'] = 'cache.backend.null';
-//$settings['extension_discovery_scan_tests'] = FALSE;
+$settings['cache']['bins']['render'] = 'cache.backend.null';
+$settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
+$settings['cache']['bins']['page'] = 'cache.backend.null';
+$settings['extension_discovery_scan_tests'] = FALSE;

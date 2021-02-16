@@ -1,0 +1,124 @@
+{
+    "uuid": [
+        {
+            "value": "8c8d4fc1-abf7-473f-8876-df350fba7936"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article",
+            "target_type": "node_type",
+            "target_uuid": "57c8e95f-1fcb-4118-a625-b05b0ed52987"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2021-02-16T18:22:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "c78a8257-a567-407c-a657-1006c8b1f811"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "c78a8257-a567-407c-a657-1006c8b1f811"
+        }
+    ],
+    "title": [
+        {
+            "value": "Accordion test"
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-01-24T14:22:23+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-02-16T18:22:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/articles\/accordion-test",
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ],
+    "body": [],
+    "field_media_image": [],
+    "field_meta_tags": [
+        {
+            "value": {
+                "title": "Accordion test | Sander Van Camp",
+                "description": "testeke van sander"
+            }
+        }
+    ],
+    "field_paragraphs": [
+        {
+            "target_type": "paragraph",
+            "target_uuid": "b6f79dc0-1cec-4325-a9db-831558bca5c8"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "e4f2f517-9d74-4ed0-8b2f-df302c65d36f"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "b7ca2776-5293-4cf9-8376-b21a5d2b6a2c"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "05c97f57-59d8-4fc6-94a7-2ac880316d2a"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "4415fd55-7ed5-4876-85fe-a6823be9971d"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "0390da6e-d114-4483-b016-af0978cbc39c"
+        }
+    ],
+    "field_tags": []
+}

@@ -1,0 +1,14 @@
+{% set classes = [
+  'panel',
+  'border-bottom',
+  'border-acccent'
+] %}
+
+
+<div class="tab">
+  <input type="checkbox" id="{{ paragraph.id() }}">
+  <label class="tab-label" for="{{ paragraph.id() }}">{{ content.field_title }}</label>
+  <div class="tab-content">
+    {{ content.field_body }}
+  </div>
+</div>

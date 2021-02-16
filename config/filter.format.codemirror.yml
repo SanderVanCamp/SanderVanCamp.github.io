@@ -1,0 +1,8 @@
+uuid: 6027895a-c1e1-4cda-aa89-6e56cc6b9d31
+langcode: en
+status: false
+dependencies: {  }
+name: CodeMirror
+format: codemirror
+weight: 0
+filters: {  }

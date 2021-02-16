@@ -51,8 +51,8 @@
 }
 
 .paragraph--type--button {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 
   a {
     font-family: 'Poppins', sans-serif;
@@ -81,10 +81,87 @@
 }
 
 .paragraph.paragraph--type--image {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .paragraph img {
   display: block;
 }
+
+/* Accordion styles */
+.paragraph.paragraph--type--accordion {
+  input {
+    display: none;
+  }
+
+  .tabs {
+    overflow: hidden;
+  }
+
+  .tab {
+    width: 100%;
+    color: $color-black;
+    overflow: hidden;
+
+    &-label {
+      display: flex;
+      justify-content: space-between;
+      padding: 1em;
+      background: $color-light;
+      font-weight: bold;
+      cursor: pointer;
+      /* Icon */
+      &:hover {
+        background: darken($color-light, 10%);
+      }
+
+      &::after {
+        content: "\276F";
+        width: 1em;
+        height: 1em;
+        text-align: center;
+        transition: all .35s;
+      }
+    }
+
+    &-content {
+      max-height: 0;
+      padding: 0 1em;
+      color: $color-dark;
+      background: white;
+      transition: all .35s;
+    }
+
+    &-close {
+      display: flex;
+      justify-content: flex-end;
+      padding: 1em;
+      font-size: 0.75em;
+      background: $color-light;
+      cursor: pointer;
+
+      &:hover {
+        background: darken($color-light, 10%);
+      }
+    }
+  }
+
+  // :checked
+  input:checked {
+    + .tab-label {
+      background: darken($color-light, 10%);
+
+      &::after {
+        transform: rotate(90deg);
+        transform-origin: left;
+      }
+    }
+
+    ~ .tab-content {
+      max-height: 100vh;
+      padding: 1em;
+    }
+  }
+}
+

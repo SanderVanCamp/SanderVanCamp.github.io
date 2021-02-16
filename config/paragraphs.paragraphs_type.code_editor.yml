@@ -1,0 +1,10 @@
+uuid: ee5327e4-c81e-470f-afa6-55a2c1fdeb98
+langcode: en
+status: true
+dependencies: {  }
+id: code_editor
+label: 'Code Editor'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,18 @@
+uuid: 77059178-9a22-46d9-9021-81d7703a08d1
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mrshndr_backend
+id: pagetitle
+theme: mrshndr_backend
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

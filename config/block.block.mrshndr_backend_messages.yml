@@ -1,0 +1,22 @@
+uuid: 9a25891d-6cf8-4603-9769-2a08cd8a6130
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mrshndr_backend
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: mrshndr_backend_messages
+theme: mrshndr_backend
+region: highlighted
+weight: -3
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,55 @@
+uuid: 1312df35-b113-4055-83cf-7bc3f9c91fb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraphs
+    - node.type.article
+    - paragraphs.paragraphs_type.accordion_item
+  module:
+    - entity_reference_revisions
+id: node.article.field_paragraphs
+field_name: field_paragraphs
+entity_type: node
+bundle: article
+label: Paragraphs
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 1
+    target_bundles:
+      accordion_item: accordion_item
+    target_bundles_drag_drop:
+      accordion:
+        weight: 10
+        enabled: false
+      accordion_item:
+        enabled: true
+        weight: 11
+      button:
+        weight: 7
+        enabled: false
+      code_editor:
+        weight: 13
+        enabled: false
+      gallery:
+        weight: 8
+        enabled: false
+      image:
+        weight: 9
+        enabled: false
+      layout_section:
+        weight: 10
+        enabled: false
+      quote:
+        weight: 11
+        enabled: false
+      text:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

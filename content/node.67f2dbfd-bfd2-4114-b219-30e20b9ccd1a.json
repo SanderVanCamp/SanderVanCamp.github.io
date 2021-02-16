@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2020-11-04T18:25:54+00:00",
+            "value": "2020-12-15T19:06:23+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2020-11-04T18:25:54+00:00",
+            "value": "2020-12-15T19:06:23+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -72,7 +72,11 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
     "path": [
         {
             "alias": "\/about-me",
@@ -82,7 +86,7 @@
     ],
     "body": [
         {
-            "value": "<p>Hey, my name is Sander. I'm a passionate developer always on the lookout to improve my skills and learn new things. This is why I started this website.&nbsp;<\/p>\r\n",
+            "value": "<p>Hey, my name is Sander. I am a young and passionate web developer who always wants to try new things. The past few years I have been experimenting mostly with Drupal and Symfony. Breaking my head over complex problems and solving them as best as possible is what drives me the most.<\/p>\r\n",
             "format": "basic_html",
             "summary": ""
         }
@@ -91,6 +95,22 @@
         {
             "target_type": "paragraph",
             "target_uuid": "e8114986-f9f3-4e43-975a-8c084d7bada1"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "3231634d-f439-4d3c-9175-ae441c1b6b24"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "45830141-102f-434f-9846-b3db7c374dbd"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "e668aa4a-bb54-4082-b3a0-b798c00c9a49"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "a4e422a9-55b8-449f-a86e-099be693b6ba"
         }
     ]
 }

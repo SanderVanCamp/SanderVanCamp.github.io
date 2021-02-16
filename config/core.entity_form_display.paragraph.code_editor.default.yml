@@ -1,0 +1,25 @@
+uuid: 393e4374-a42a-41ee-b964-e628afe74684
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.code_editor.field_body
+    - paragraphs.paragraphs_type.code_editor
+  module:
+    - text
+id: paragraph.code_editor.default
+targetEntityType: paragraph
+bundle: code_editor
+mode: default
+content:
+  field_body:
+    weight: 0
+    settings:
+      rows: 9
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true

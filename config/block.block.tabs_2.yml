@@ -1,0 +1,20 @@
+uuid: b58f74f7-159f-4792-85a0-96d982f995a4
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mrshndr_backend
+id: tabs_2
+theme: mrshndr_backend
+region: pre_content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary Tabs'
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: true
+visibility: {  }

@@ -1,6 +1,6 @@
 <?php
 
-use Drupal\image\Entity\ImageStyle;
+
 
 /**
  * Implements hook_theme_suggestions_HOOK_alter() for form templates.
@@ -22,3 +22,19 @@ function mrshndr_page_attachments_alter(array &$attachments)
     unset($attachments['#attached']['library'][$index]);
   }
 }
+
+
+//function mrshndr_preprocess_paragraph(&$variables)
+//{
+//  global $base_url;
+//  $theme = \Drupal::theme()->getActiveTheme();
+//  $criticalCss = file_get_contents($base_url . '/' . $theme->getPath() . '/css/test.css');
+//
+////  $html = \Drupal::service('renderer')->renderPlain($build);
+//  $variables['content']['markup'] = [
+//    '#type' => 'html_tag',
+//    '#tag' => 'style',
+//    '#value' => Markup::create($criticalCss),
+//  ];
+//
+//}

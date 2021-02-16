@@ -13,13 +13,10 @@ bundle: image
 mode: default
 content:
   field_image:
-    type: auto_responsive_media_image
+    type: auto_scale_responsive_media_image
     weight: 0
     label: hidden
-    settings:
-      width: '2'
-      height: '1'
-      crop_type: focal_point_scale_and_crop
+    settings: {  }
     third_party_settings: {  }
     region: content
 hidden: {  }
