@@ -1,0 +1,93 @@
+{
+    "uuid": [
+        {
+            "value": "a4b7e409-b1c8-4e6b-bd78-fe45021fadd9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image",
+            "target_type": "media_type",
+            "target_uuid": "62cc17d9-4777-4ea4-964a-4ea63e7893a5"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-11-02T13:30:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "c78a8257-a567-407c-a657-1006c8b1f811"
+        }
+    ],
+    "name": [
+        {
+            "value": "finan-akbar-ohoun94xtf8-unsplash.jpg"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "dunno",
+            "title": null,
+            "width": 4240,
+            "height": 2832,
+            "target_type": "file",
+            "target_uuid": "bf257cd1-1767-4cc0-8e25-1a3d88772793"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-11-01T09:42:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-11-01T09:42:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 0
+        }
+    ],
+    "field_media_image": [
+        {
+            "alt": "dunno",
+            "title": "",
+            "width": 4240,
+            "height": 2832,
+            "target_type": "file",
+            "target_uuid": "bf257cd1-1767-4cc0-8e25-1a3d88772793"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "d813cb7b-908e-4872-a681-32eb1204bb7d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "c78a8257-a567-407c-a657-1006c8b1f811"
+        }
+    ],
+    "filename": [
+        {
+            "value": "20191114_092024_custom.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/kWx7UvdFpD1yy5kjrNVkkwZTsxuWzht9fuBRGbTPpAfz5dDYRk.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 6395005
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-22T08:22:42+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-22T08:23:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

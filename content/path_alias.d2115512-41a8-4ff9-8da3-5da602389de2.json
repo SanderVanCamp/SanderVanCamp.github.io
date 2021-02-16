@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "d2115512-41a8-4ff9-8da3-5da602389de2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/b9fd56dd-6b5c-4b7b-be08-f81ffd977b51"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/testeke"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

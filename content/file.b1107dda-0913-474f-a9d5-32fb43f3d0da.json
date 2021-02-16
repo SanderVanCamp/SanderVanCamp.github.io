@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "b1107dda-0913-474f-a9d5-32fb43f3d0da"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "c78a8257-a567-407c-a657-1006c8b1f811"
+        }
+    ],
+    "filename": [
+        {
+            "value": "20191118_095136 (1)_edit.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/bxDq8PIlg3CGGldS6xUTNKhx1PWgvbZmm6wNNKU9PNke665sCH.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 14365788
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-23T08:27:52+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-23T08:27:52+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

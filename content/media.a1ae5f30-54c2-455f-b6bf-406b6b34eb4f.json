@@ -1,0 +1,93 @@
+{
+    "uuid": [
+        {
+            "value": "a1ae5f30-54c2-455f-b6bf-406b6b34eb4f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image",
+            "target_type": "media_type",
+            "target_uuid": "62cc17d9-4777-4ea4-964a-4ea63e7893a5"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-11-02T13:30:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "c78a8257-a567-407c-a657-1006c8b1f811"
+        }
+    ],
+    "name": [
+        {
+            "value": "lin-mei-NYyCqdBOKwc-unsplash.jpg"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "Fushimi inari",
+            "title": null,
+            "width": 3936,
+            "height": 2624,
+            "target_type": "file",
+            "target_uuid": "706c65d7-394b-45dc-b079-0837d372215b"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-31T11:06:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-31T11:06:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 0
+        }
+    ],
+    "field_media_image": [
+        {
+            "alt": "Fushimi inari",
+            "title": "",
+            "width": 3936,
+            "height": 2624,
+            "target_type": "file",
+            "target_uuid": "706c65d7-394b-45dc-b079-0837d372215b"
+        }
+    ]
+}

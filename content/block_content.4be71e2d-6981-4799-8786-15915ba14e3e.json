@@ -1,0 +1,60 @@
+{
+    "uuid": [
+        {
+            "value": "4be71e2d-6981-4799-8786-15915ba14e3e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "image",
+            "target_type": "block_content_type",
+            "target_uuid": "5168d70e-cdb8-4dcd-bbef-65a2f5f8dc41"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-08-22T17:20:49+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [],
+    "changed": [
+        {
+            "value": "2020-08-23T07:52:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "field_image": [
+        {
+            "target_type": "media",
+            "target_uuid": "e943b0dd-e636-4e9c-97af-e8453285d76e"
+        }
+    ]
+}

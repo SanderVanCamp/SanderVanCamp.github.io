@@ -1,0 +1,58 @@
+{
+    "uuid": [
+        {
+            "value": "2a90d5c2-d093-436d-bd9a-268883610916"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "text",
+            "target_type": "paragraphs_type",
+            "target_uuid": "77696c35-ea90-4800-8fe7-650948a16b58"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-02-16T18:38:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": {
+                "layout_paragraphs": {
+                    "region": "",
+                    "parent_uuid": "",
+                    "layout": "",
+                    "config": []
+                }
+            }
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "field_body": [
+        {
+            "value": "<h2>2. In your .lando.yml file<\/h2>\r\n\r\n<p>Make sure you enable xdebug in your appserver and set a custom config file for php. Tip: make sure the path is correct. In this example the .lando folder is situated in the same directory as the .lando.yml file.<\/p>\r\n\r\n<pre>\r\n<code>name: sandervancamp.be\r\nrecipe: drupal8\r\nconfig:\r\n  webroot: web\r\nservices:\r\n  appserver:\r\n    xdebug: true\r\n    config:\r\n      php: .lando\/php.ini\r\n<\/code><\/pre>\r\n",
+            "format": "basic_html"
+        }
+    ]
+}

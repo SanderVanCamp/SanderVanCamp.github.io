@@ -1,0 +1,54 @@
+{
+    "uuid": [
+        {
+            "value": "14e63a05-f40d-445c-a35b-77fbde288f83"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "text",
+            "target_type": "paragraphs_type",
+            "target_uuid": "77696c35-ea90-4800-8fe7-650948a16b58"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-11-04T18:05:21+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": {
+                "layout_paragraphs": {
+                    "region": "",
+                    "parent_uuid": "",
+                    "layout": "",
+                    "config": []
+                }
+            }
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "field_body": [
+        {
+            "value": "<p>As you can read on the about me page, I didn't really like programming all that much when I left school. It was only after getting a job that I discovered programming could be fun when you actually kinda knew what you were doing. On my first job at <a href=\"https:\/\/www.volta.be\">volta.be<\/a>&nbsp;we did most of our programming in Drupal. This is where I really started to appreciate best practices and object oriented programming.&nbsp;<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ]
+}

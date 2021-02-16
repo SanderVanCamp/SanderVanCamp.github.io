@@ -1,0 +1,61 @@
+{
+    "uuid": [
+        {
+            "value": "f3b6c98e-34e4-4f75-a8ed-26c0eb9d4c76"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic",
+            "target_type": "block_content_type",
+            "target_uuid": "b259747e-8661-431c-8df3-cdc514dc5a1f"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-08-22T18:26:22+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [],
+    "changed": [
+        {
+            "value": "2020-08-22T18:26:22+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>kaka<\/p>\r\n",
+            "format": "basic_html",
+            "summary": ""
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "uuid": [
+        {
+            "value": "f36cc8d6-6f96-4da0-95e7-2fcff5a73e7e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image",
+            "target_type": "media_type",
+            "target_uuid": "62cc17d9-4777-4ea4-964a-4ea63e7893a5"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-11-04T18:08:53+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "c78a8257-a567-407c-a657-1006c8b1f811"
+        }
+    ],
+    "name": [
+        {
+            "value": "8-coderwd.jpg"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "Sander Van Camp programming",
+            "title": null,
+            "width": 6016,
+            "height": 4000,
+            "target_type": "file",
+            "target_uuid": "d34344d2-ac9c-49d9-a781-266fd5091bea"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-11-04T18:08:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-11-04T18:08:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 0
+        }
+    ],
+    "field_media_image": [
+        {
+            "alt": "Sander Van Camp programming",
+            "title": "",
+            "width": 6016,
+            "height": 4000,
+            "target_type": "file",
+            "target_uuid": "d34344d2-ac9c-49d9-a781-266fd5091bea"
+        }
+    ]
+}

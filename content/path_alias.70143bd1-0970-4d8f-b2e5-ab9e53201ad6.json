@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "70143bd1-0970-4d8f-b2e5-ab9e53201ad6"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/9d82b541-2f85-470e-949c-ccad0640bee8"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/articles\/my-trip-japan"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

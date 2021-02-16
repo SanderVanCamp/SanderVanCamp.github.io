@@ -1,0 +1,103 @@
+{
+    "uuid": [
+        {
+            "value": "9d82b541-2f85-470e-949c-ccad0640bee8"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article",
+            "target_type": "node_type",
+            "target_uuid": "57c8e95f-1fcb-4118-a625-b05b0ed52987"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-08-30T18:16:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "c78a8257-a567-407c-a657-1006c8b1f811"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "c78a8257-a567-407c-a657-1006c8b1f811"
+        }
+    ],
+    "title": [
+        {
+            "value": "My trip to Japan"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-29T15:40:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-30T18:16:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/articles\/my-trip-japan",
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ],
+    "body": [
+        {
+            "value": "<!-- wp:drupal\/simple-text {\"tag\":\"h1\",\"text\":\"My trip to Japan\",\"placeholder\":\"Insert title\",\"mappingFields\":[{\"field\":\"title\"}]} -->\r\nMy trip to Japan\r\n<!-- \/wp:drupal\/simple-text -->\r\n\r\n<!-- wp:drupal\/simple-text {\"tag\":\"strong\",\"text\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \",\"placeholder\":\"Insert summary\",\"mappingFields\":[{\"field\":\"field_summary\"}]} -->\r\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \r\n<!-- \/wp:drupal\/simple-text -->\r\n\r\n<!-- wp:drupalmedia\/drupal-media-entity {\"mediaEntityIds\":[\"32\"],\"align\":\"wide\",\"mappingFields\":[{\"field\":\"field_media_image\",\"property\":\"target_id\",\"attribute\":\"mediaEntityIds\"}]} \/-->\r\n\r\n<!-- wp:drupal\/section -->\r\n<main class=\"wp-block-drupal-section\"><!-- wp:paragraph -->\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:quote {\"className\":\"is-style-large\"} -->\r\n<blockquote class=\"wp-block-quote is-style-large\"><p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisic<\/p><cite>Sander Van Calo<\/cite><\/blockquote>\r\n<!-- \/wp:quote -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:buttons -->\r\n<div class=\"wp-block-buttons\"><!-- wp:button {\"className\":\"is-style-fill\"} -->\r\n<div class=\"wp-block-button is-style-fill\"><a class=\"wp-block-button__link\"><strong>Japan's official website<\/strong><\/a><\/div>\r\n<!-- \/wp:button --><\/div>\r\n<!-- \/wp:buttons -->\r\n\r\n<!-- wp:columns -->\r\n<div class=\"wp-block-columns\"><!-- wp:column -->\r\n<div class=\"wp-block-column\"><!-- wp:paragraph -->\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat<\/p>\r\n<!-- \/wp:paragraph --><\/div>\r\n<!-- \/wp:column -->\r\n\r\n<!-- wp:column -->\r\n<div class=\"wp-block-column\"><!-- wp:paragraph -->\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat<\/p>\r\n<!-- \/wp:paragraph --><\/div>\r\n<!-- \/wp:column --><\/div>\r\n<!-- \/wp:columns -->\r\n\r\n<!-- wp:group {\"align\":\"wide\"} -->\r\n<div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:group {\"align\":\"wide\"} -->\r\n<div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:cover {\"url\":\"\/sites\/default\/files\/inline-images\/rqNrlajvTYsXakI0fmhoXEzV811deIXNac5buycrnYknsKvcrs.png\",\"id\":36,\"dimRatio\":20,\"align\":\"wide\",\"mediaAttrs\":{\"data-entity-type\":\"file\",\"data-entity-uuid\":\"6f7a9961-7e74-49ea-85f9-d2bf940b7d8c\",\"data-image-style\":\"original\"}} -->\r\n<div class=\"wp-block-cover alignwide has-background-dim-20 has-background-dim\" style=\"background-image:url(\/sites\/default\/files\/inline-images\/rqNrlajvTYsXakI0fmhoXEzV811deIXNac5buycrnYknsKvcrs.png)\" data-entity-type=\"file\" data-entity-uuid=\"6f7a9961-7e74-49ea-85f9-d2bf940b7d8c\" data-image-style=\"original\"><div class=\"wp-block-cover__inner-container\"><!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"very-light-gray\",\"fontSize\":\"huge\"} -->\r\n<p class=\"has-text-align-center has-very-light-gray-color has-text-color has-huge-font-size\"><strong>Hakone shrine was epic!<\/strong><\/p>\r\n<!-- \/wp:paragraph --><\/div><\/div>\r\n<!-- \/wp:cover --><\/div><\/div>\r\n<!-- \/wp:group --><\/div><\/div>\r\n<!-- \/wp:group -->\r\n\r\n<!-- wp:columns {\"align\":\"wide\"} -->\r\n<div class=\"wp-block-columns alignwide\"><!-- wp:column {\"width\":33.34} -->\r\n<div class=\"wp-block-column\" style=\"flex-basis:33.34%\"><!-- wp:group -->\r\n<div class=\"wp-block-group\"><div class=\"wp-block-group__inner-container\"><!-- wp:group {\"align\":\"wide\",\"backgroundColor\":\"vivid-cyan-blue\"} -->\r\n<div class=\"wp-block-group alignwide has-vivid-cyan-blue-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"level\":4} -->\r\n<h4><strong>Flashy en speels<\/strong><\/h4>\r\n<!-- \/wp:heading -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Deze campagne is vooral gericht op jonge moeders, die Extracalm meenemen op reis. Ze bereikt haar doelgroep online, met felle kleuren, zomerse beelden en speelse animaties in stopmotion-stijl.<\/p>\r\n<!-- \/wp:paragraph --><\/div><\/div>\r\n<!-- \/wp:group --><\/div><\/div>\r\n<!-- \/wp:group --><\/div>\r\n<!-- \/wp:column -->\r\n\r\n<!-- wp:column {\"width\":66.66} -->\r\n<div class=\"wp-block-column\" style=\"flex-basis:66.66%\"><!-- wp:image {\"id\":37,\"sizeSlug\":\"large\",\"mediaAttrs\":{\"data-entity-type\":\"file\",\"data-entity-uuid\":\"f5174319-c2f4-484f-8a5b-b93c83149aca\",\"data-image-style\":\"original\"}} -->\r\n<figure class=\"wp-block-image size-large\"><img src=\"\/sites\/default\/files\/styles\/large\/public\/inline-images\/snkYHzuQbh0ZqQBboIfPda42UMIC78vNrPwR6EH1MketOuAVmv.jpg?itok=YDRR28Je\" alt=\"\" class=\"wp-image-37\" data-entity-type=\"file\" data-entity-uuid=\"f5174319-c2f4-484f-8a5b-b93c83149aca\" data-image-style=\"original\"\/><\/figure>\r\n<!-- \/wp:image --><\/div>\r\n<!-- \/wp:column --><\/div>\r\n<!-- \/wp:columns --><\/main>\r\n<!-- \/wp:drupal\/section -->",
+            "format": "gutenberg",
+            "summary": ""
+        }
+    ],
+    "field_media_image": [
+        {
+            "target_type": "media",
+            "target_uuid": "8af8ccc3-f2a1-4d74-8095-3cc6f507aaa4"
+        }
+    ],
+    "field_meta_tags": [],
+    "field_paragraphs": [],
+    "field_tags": []
+}
